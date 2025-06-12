@@ -1,0 +1,235 @@
+.cart{
+    width: 280px;
+    height: 440px;
+    /* background-color: #210A01; */
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+.pizza {
+    /* position: absolute; */
+    /* bottom: 0; */
+    background: none;
+    position: relative;
+    /* top: 150%; */
+    bottom: 20%;
+}
+
+.textcart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 270px;
+    position: absolute;
+    top: 170%;
+}
+
+.textcart h2 {
+    color: white;
+}
+
+.textcart p {
+    color: #A3A3A3;
+}
+
+.imagepizza {
+    display: flex;
+    gap: 35px;
+}
+
+.ingridients {
+    padding: 10px 50px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: 2px solid #FFA229;
+    color: #FF5924;
+    font-weight: bold;
+}
+
+.moneypiza {
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+}
+
+.moneypiza h3{
+    color: white;
+    font-weight: bold;
+}
+
+.buttonmoney {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonmoney span {
+    color: white;
+}
+
+.minus {
+    width: 25px;
+    height: 25px;
+    color: white;
+    border: 2px solid #A3A3A3;
+    border-radius: 50%;
+}
+
+.pilus {
+    width: 25px;
+    height: 25px;
+    color: white;
+    border: 2px solid #A3A3A3;
+    border-radius: 50%;
+    background-color: #FF5924;
+}
+
+.order {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #FF5924;
+    color: white;
+    font-weight: bold;
+}
+
+.kitchencart {
+    background-image: url('../assets/Rectangle 9.png');
+    height: 60vh;
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    /* z-index: 1; */
+    /* display: flex; */
+    justify-content: space-around;
+    /* background-color: white; */
+}
+
+.textkitchencart {
+    margin-top: 50px;
+    background: none;
+    margin-left: 50px;
+}
+
+.textkitchencart h1 {
+    background: none;
+    color: white;
+    width: 250px;
+    margin: 25px 0px;
+}
+
+.textkitchencart button {
+    background-color: #FE9C1C;
+    width: 200px;
+    height: 38px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.coffe1 {
+    background-image: url('../assets/Rectangle 10 (1).png');
+    height: 45vh;
+    /* width: 65%; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background: none; */
+    /* margin-top: 0; */
+}
+
+.textcoffe {
+    color: white;
+    /* border: 2px solid white; */
+    width: 400px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    background: none;
+    /* margin-top: 50px; */
+    /* margin-top: 100px; */
+}
+
+.textcoffe h1 {
+    margin-top: 120px;
+    width: 250px;
+    margin-left: 25px;
+    background: none;
+}
+
+.textcoffe button {
+    width: 200px;
+    background-color: #FF5D29;
+    height: 38px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+@media (max-width: 510px) {
+    .cart {
+        border: 2px solid wheat;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .textcart {
+        position: static; 
+        top: auto;
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+
+    .pizza {
+        position: relative;
+        top: 1%;
+        bottom: 0;
+    }
+
+    .kitchencart {
+        /* border: 2px solid white; */
+        width: 380px;
+        /* height: 580vh; */
+        /* height: 60vh; */
+    }
+
+    .textkitchencart {
+        /* border: 2px solid white; */
+        margin-top: 0;
+    }
+
+    .textkitchencart h1 {
+        font-size: 25px;
+    }
+
+    .textcoffe {
+        /* border: 2px solid white; */
+        width: 300px;
+    }
+
+    .coffe1 {
+        height: 50vh;
+    }
+
+    .textcart p {
+        font-weight: bold;
+    }
+
+    .textcart2 p {
+        font-weight: bold;
+    }
+}
